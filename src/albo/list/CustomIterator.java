@@ -1,4 +1,4 @@
-package list.albo;
+package albo.list;
 
 import java.util.Iterator;
 
@@ -10,7 +10,6 @@ public class CustomIterator<T> implements Iterator<T> {
 
         this.array = array;
     }
-
 
     public boolean hasNext() {
         if (counter != this.array.length) {

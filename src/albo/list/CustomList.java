@@ -1,4 +1,4 @@
-package list.albo;
+package albo.list;
 
 import java.util.Iterator;
 
